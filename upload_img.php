@@ -1,7 +1,3 @@
-<?php
-   
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>upload de imagens</title>
 </head>
+    <style>
+        div{
+            text-align:center;
+        }
+    </style>
 <body>
+    <div>
+        <nav>
+            <a href="index.php">home</a> |
+            <a href="upload.php">upload</a> 
+        </nav>
+    </div>
     <h2>cadastrar imagem</h2>
     <form action="processa_upload.php" method="POST" enctype="multipart/form-data">
         <label for="">upload de imagens:</label>

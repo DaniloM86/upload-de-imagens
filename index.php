@@ -11,7 +11,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <style>
+        div{
+            text-align:center;
+        }
+    </style>
 <body>
+    <div>
+        <nav>
+            <a href="index.php">home</a> |
+            <a href="upload_img.php">upload</a> 
+        </nav>
+    </div>
     <h2>projeto upload de imagens</h2>
     <table>
         <thead>
