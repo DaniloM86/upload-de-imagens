@@ -16,7 +16,7 @@
     <table>
         <thead>
             <tr>
-                <th>imagens</th>
+                <th>imagens de teste</th>
             </tr>
         </thead>
         <tbody>
